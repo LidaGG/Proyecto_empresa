@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta de Información - Proyecto Empresa</title>
+    <!-- Enlace a Bootstrap CSS desde una CDN (Content Delivery Network) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+    <!-- Enlace a tu archivo CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+
+    <!-- Scripts de Bootstrap desde una CDN (Opcional, solo si necesitas componentes de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-4">Consulta de Información - Proyecto Empresa</h1>
+
+    <!-- Pestañas utilizando clases de Bootstrap -->
+    <ul class="nav nav-tabs mt-4">
+        <li class="nav-item">
+            <a class="nav-link active" id="empresasTab" data-toggle="tab" href="#empresasForm">Empresas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="empleadosTab" data-toggle="tab" href="#empleadosForm">Empleados</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="dineroTab" data-toggle="tab" href="#dineroForm">Manejo de Dinero</a>
+        </li>
+    </ul>
+
+    <!-- Contenido de las pestañas -->
+    <div class="tab-content mt-4">
+        <!-- Formulario de Empresas -->
+        <div class="tab-pane active" id="empresasForm">
+            <!-- Agrega aquí los campos y elementos del formulario para Empresas -->
+        </div>
+
+        <!-- Formulario de Empleados -->
+        <div class="tab-pane" id="empleadosForm">
+            <!-- Agrega aquí los campos y elementos del formulario para Empleados -->
+        </div>
+
+        <!-- Formulario de Manejo de Dinero -->
+        <div class="tab-pane" id="dineroForm">
+            <!-- Agrega aquí los campos y elementos del formulario para Manejo de Dinero -->
+        </div>
+    </div>
+</div>
+
+<!-- Script de Bootstrap (necesario para el funcionamiento de las pestañas) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+<script src="/index.js"></script> <!-- Inclusión del archivo JavaScript personalizado -->
+</body>
+</html>

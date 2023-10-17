@@ -1,0 +1,49 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Estilos para las pestañas de navegación */
+.nav-tabs {
+    background-color: #007BFF;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.nav-tabs .nav-link {
+    color: #fff;
+    border: none;
+}
+
+/* Estilos para los formularios */
+form {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
