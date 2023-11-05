@@ -1,0 +1,9 @@
+com\proyectoempresa\proyectoempresa6\repository\StudentRepository.class
+com\proyectoempresa\proyectoempresa6\repository\EmployeeRepository.class
+com\proyectoempresa\proyectoempresa6\services\EmployeeService.class
+com\proyectoempresa\proyectoempresa6\Proyectoempresa6Application.class
+com\proyectoempresa\proyectoempresa6\controllers\StudentController.class
+com\proyectoempresa\proyectoempresa6\entity\Employee.class
+com\proyectoempresa\proyectoempresa6\controllers\EmployeeController.class
+com\proyectoempresa\proyectoempresa6\services\StudentService.class
+com\proyectoempresa\proyectoempresa6\entity\Student.class
